@@ -30,6 +30,18 @@ namespace Prestige.BizTests
             Assert.AreEqual(expected, result);
         }
         [TestMethod]
+        public void TestSettingObjectProperty()
+        {
+            // Arrange
+            var currenrActor = new Actor();
+            currenrActor.ActorName = "Johny Boy";
+            var expected = "Johny Boy";
+            // Act
+            string result = currenrActor.ActorName;
+            // Assert
+            Assert.AreEqual(expected, result);
+        }
+        [TestMethod]
         public void TestBookActor() { 
             // Arrange
             string details = "Booking can change if" +
