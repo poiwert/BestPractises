@@ -18,5 +18,16 @@ namespace Prestige.BizTests
             // Assert
             Assert.AreEqual(expected, result);
         }
+        [TestMethod]
+        public void TestParameterizedConstructor()
+        {
+            // Arrange
+            var currenrActor = new Actor("Johny Boy");
+            var expected = "Johny Boy";
+            // Act
+            string result = currenrActor.ActorName;
+            // Assert
+            Assert.AreEqual(expected, result);
+        }
     }
 }
