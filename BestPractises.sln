@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prestige.BizTests", "Presti
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{D5654449-73A5-496C-8F1A-1F41962C7F5F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prestige.Common", "Prestige.Common\Prestige.Common.csproj", "{777C2AD2-6213-4183-9243-9CFDAA11DAED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prestige.CommonTests", "Prestige.CommonTests\Prestige.CommonTests.csproj", "{7DFF1A5D-A1B8-48FF-9574-8AFEEDB75BFD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,12 +27,21 @@ Global
 		{17B9D417-C2FC-465B-A882-4EAC17E46B31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17B9D417-C2FC-465B-A882-4EAC17E46B31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17B9D417-C2FC-465B-A882-4EAC17E46B31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{777C2AD2-6213-4183-9243-9CFDAA11DAED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{777C2AD2-6213-4183-9243-9CFDAA11DAED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{777C2AD2-6213-4183-9243-9CFDAA11DAED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{777C2AD2-6213-4183-9243-9CFDAA11DAED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DFF1A5D-A1B8-48FF-9574-8AFEEDB75BFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DFF1A5D-A1B8-48FF-9574-8AFEEDB75BFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DFF1A5D-A1B8-48FF-9574-8AFEEDB75BFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DFF1A5D-A1B8-48FF-9574-8AFEEDB75BFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{17B9D417-C2FC-465B-A882-4EAC17E46B31} = {D5654449-73A5-496C-8F1A-1F41962C7F5F}
+		{7DFF1A5D-A1B8-48FF-9574-8AFEEDB75BFD} = {D5654449-73A5-496C-8F1A-1F41962C7F5F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3DC018C5-9236-411C-B6D0-36E1C6B80915}
