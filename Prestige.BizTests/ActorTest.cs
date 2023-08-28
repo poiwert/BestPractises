@@ -32,7 +32,7 @@ namespace Prestige.BizTests
         [TestMethod]
         public void TestBookActor() { 
             // Arrange
-            string details = " Booking can change if" +
+            string details = "Booking can change if" +
                 " actor starts trouble.";
             var currenrActor = new Actor("Johny Boy");
             var expected = "Actor Johny Boy is booked. "
