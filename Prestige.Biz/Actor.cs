@@ -31,6 +31,14 @@ namespace Prestige.Biz
             set { jobTitle = value; }
         }
 
+        private string theDate;
+
+        public string TheDate
+        {
+            get { return theDate; }
+            set { theDate = value; }
+        }
+
 
         /// <summary>
         /// Will return title
@@ -39,6 +47,29 @@ namespace Prestige.Biz
         public string GetOccupation() {
             jobTitle = "Actor";
             return jobTitle;
+        }
+
+        /// <summary>
+        /// Books actor and not date specified
+        /// </summary>
+        public string BookActor()
+        {
+            string details = " Booking can change if" +
+                " actor starts trouble.";
+            return "Actor " + ActorName + " is booked. " + details;
+        }
+
+
+        /// <summary>
+        /// Books actor on specific date.
+        /// </summary>
+        /// <param name="theDate"></param>
+        public string BookActor(string theDate)
+        {
+            string details = "Booking can change if" +
+                " actor starts trouble.";
+            return "Actor " + ActorName + " is booked on "
+                + theDate + ". " + details;
         }
     }
 }
