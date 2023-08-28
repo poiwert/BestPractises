@@ -8,7 +8,7 @@ namespace Prestige.Biz
         public Actor()
         {
             Console.WriteLine("An actor is born.");
-            this.CurrentAgency = new Agency();
+            //this.CurrentAgency = new Agency();
         }
 
         public Actor(string actorName):this()
@@ -35,7 +35,12 @@ namespace Prestige.Biz
 
         public Agency CurrentAgency
         {
-            get { return currentAgency; }
+            get {
+                if (currentAgency == null)
+                {
+                    currentAgency = new Agency();
+                }
+                return currentAgency; }
             set { currentAgency = value; }
         }
         private string jobTitle;
