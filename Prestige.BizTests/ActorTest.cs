@@ -1,4 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Prestige.Biz;
 using System;
 
 namespace Prestige.BizTests
@@ -7,8 +8,15 @@ namespace Prestige.BizTests
     public class ActorTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void TestGetOccupation()
         {
+            // Arrange
+            var currentActor = new Actor();
+            var expected = "Actor";
+            // Act
+            string result = currentActor.GetOccupation();
+            // Assert
+            Assert.AreEqual(expected, result);
         }
     }
 }
