@@ -24,6 +24,10 @@ namespace Prestige.Biz
                 actorName = formattedName; }
         }
 
+        public int ActorAge { get; set; }
+
+        public string ActorDescription { get; set; } = 
+            "Regular actor";
 
         private string jobTitle;
 
