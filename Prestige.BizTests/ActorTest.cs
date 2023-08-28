@@ -4,7 +4,7 @@ using System;
 namespace Prestige.BizTests
 {
     [TestClass]
-    public class UnitTest1
+    public class ActorTest
     {
         [TestMethod]
         public void TestMethod1()
