@@ -1,12 +1,17 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Prestige.Common
 {
-    public class NotificationService
+    /// <summary>
+    /// Notifies talent
+    /// </summary>
+    static public class NotificationService
     {
+        static public string NotifyTalent(string talentName) {
+            var message = "talent" + talentName;
+            Console.WriteLine(message);
+            return message;
+            }
     }
 }
+    
