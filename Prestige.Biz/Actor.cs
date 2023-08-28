@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.ConstrainedExecution;
 
 namespace Prestige.Biz
 {
@@ -81,6 +82,11 @@ namespace Prestige.Biz
             {
                 return theActor + ". " + details;
             }
+        }
+        public string GetAgency()
+        {
+            var currentAgency = new Agency();
+            return currentAgency.AgencyName;
         }
     }
 }
