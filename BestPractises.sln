@@ -5,6 +5,10 @@ VisualStudioVersion = 17.7.34018.315
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prestige.Biz", "Prestige.Biz\Prestige.Biz.csproj", "{66A32F35-F6CD-42F1-A5BD-72AE97617DD6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prestige.BizTests", "Prestige.BizTests\Prestige.BizTests.csproj", "{17B9D417-C2FC-465B-A882-4EAC17E46B31}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{D5654449-73A5-496C-8F1A-1F41962C7F5F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{66A32F35-F6CD-42F1-A5BD-72AE97617DD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66A32F35-F6CD-42F1-A5BD-72AE97617DD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66A32F35-F6CD-42F1-A5BD-72AE97617DD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17B9D417-C2FC-465B-A882-4EAC17E46B31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17B9D417-C2FC-465B-A882-4EAC17E46B31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17B9D417-C2FC-465B-A882-4EAC17E46B31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17B9D417-C2FC-465B-A882-4EAC17E46B31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{17B9D417-C2FC-465B-A882-4EAC17E46B31} = {D5654449-73A5-496C-8F1A-1F41962C7F5F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3DC018C5-9236-411C-B6D0-36E1C6B80915}
